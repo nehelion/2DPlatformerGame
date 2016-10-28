@@ -66,13 +66,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MoveD.cs" />
+    <Compile Include="Assets\Scripts\Animation Scripts\JumpAnim.cs" />
+    <Compile Include="Assets\Scripts\Animation Scripts\Loop.cs" />
+    <Compile Include="Assets\Scripts\Animation Scripts\MoveDPrime.cs" />
+    <Compile Include="Assets\Scripts\Animation Scripts\MovePrime.cs" />
+    <Compile Include="Assets\Scripts\Animation Scripts\Stopper.cs" />
     <Compile Include="Assets\Scripts\BreakAbility.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\JumpPad.cs" />
     <Compile Include="Assets\Scripts\NextLevelEvent.cs" />
     <Compile Include="Assets\Scripts\SpriteMovement.cs" />
-    <Compile Include="Assets\Stopper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

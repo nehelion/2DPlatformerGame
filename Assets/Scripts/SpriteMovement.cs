@@ -5,6 +5,7 @@ public class SpriteMovement : MonoBehaviour
 {
     public int speed;
     public int jPower;
+    public bool hitJ;
     
 	void Update ()
     {
@@ -33,6 +34,7 @@ public class SpriteMovement : MonoBehaviour
         if (col.gameObject.tag == "jumper")
         {
             transform.position += Vector3.up * 200 * Time.deltaTime;
+            hitJ = true;
         }
     }
 }

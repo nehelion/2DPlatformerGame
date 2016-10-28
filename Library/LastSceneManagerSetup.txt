@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Level1.unity
+- path: Assets/Level8 Kevin.unity
   isLoaded: 1
   isActive: 1
